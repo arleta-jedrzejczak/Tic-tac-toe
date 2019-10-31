@@ -95,10 +95,8 @@ function onCheckFields(fieldsArray, isPlayer1) {
                 setTimeout(() => onWinGame(isPlayer1), 500);
             }
         }
-        onChangeTurn(isPlayer1);
-    } else {
-        onChangeTurn(isPlayer1);
     }
+    onChangeTurn(isPlayer1);
 }
 
 function onChangeTurn(isPlayerOne) {
