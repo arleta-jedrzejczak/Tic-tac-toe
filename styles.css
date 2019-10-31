@@ -1,0 +1,46 @@
+body {
+    box-sizing: border-box;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid darkgray;
+    background-color: lightgrey;
+}
+
+p, button {
+    font-size: 32px;
+}
+
+.player1 {
+    color: blue;
+    font-weight: bold;
+}
+
+.player2 {
+    color: red;
+    font-weight: bold;
+}
+
+.button {
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.alert {
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+}
